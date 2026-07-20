@@ -1,0 +1,66 @@
+.galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 15px;
+        }
+        .galeria-item {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .galeria-item:hover {
+            transform: scale(1.05);
+        }
+        /* Contenedor principal que usa Flexbox para poner elementos lado a lado */
+        .contenedor {
+            display: flex;
+            align-items: center; /* Centra el texto verticalmente con la imagen */
+            gap: 20px; /* Espacio entre la imagen y el texto */
+            
+            /* Opcional: Un poco de estilo para que se vea bien */
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 8px;
+            max-width: 1050px;
+        }
+
+        /* Estilos para la imagen */
+        .contenedor img {
+            width: 800px; /* Ajusta el ancho de tu imagen aquí */
+            height: auto;
+            border-radius: 5px; /* Bordes ligeramente redondeados */
+            
+        }
+
+        /* Estilos para el texto/descripción */
+        .descripcion {
+            font-family: Arial, sans-serif;
+            color: #333;
+             width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        .contenedor1 {
+            display: flex;
+            align-items: center; /* Centra el texto verticalmente con la imagen */
+            gap: 20px; /* Espacio entre la imagen y el texto */
+            
+            /* Opcional: Un poco de estilo para que se vea bien */
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 8px;
+            max-width: 900px;
+        }
+
+        /* Estilos para la imagen */
+        .contenedor1 img {
+            width: 150px; /* Ajusta el ancho de tu imagen aquí */
+            height: auto;
+            border-radius: 5px; /* Bordes ligeramente redondeados */
+            
+        }
